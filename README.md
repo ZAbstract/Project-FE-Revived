@@ -4,7 +4,7 @@ This is a project that has been in the makings for a long time by me and my frie
 We'll be posting our scripts right here now and then to show the progress.
 
 **NOTE: This game is heavily inspired by Crazyblox Games's "Flood Escape 2"**
-**Revive Productions is NOT associated with Crazyblox or "Flood Escape 2"**
+**Revive Productions is NOT associated with Crazyblox or "Flood Escape 2", however are INSPIRED by "Flood Escape 2" and Crazyblox.**
 
 **Changes will be made. This never will be finished.**
 
