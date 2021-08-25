@@ -3,18 +3,9 @@ local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local PassKey = nil
 
-local wait = function(Duration)
-	Duration = Duration or (1 / 30)
-	local Start = os.clock()
-
-	while os.clock() - Start < Duration do 
-		RunService.Stepped:Wait()
-	end
-end
-
 while not PassKey do
 	PassKey = ReplicatedStorage.Remote.GetPassKey:InvokeServer(script.Name)
-	wait(0.5)
+	task.wait(0.5)
 end
 
 local MainInfo = script.Parent
@@ -66,6 +57,6 @@ coroutine.resume(coroutine.create(GetLocation))
 coroutine.resume(coroutine.create(function()
 	while true do
 		GetPing()
-		wait(0.5)
+		task.wait(0.5)
 	end
 end))
