@@ -14,3 +14,7 @@ This is a attempt to bring back the fun of making maps and playing maps.
 This project is open source, Your pull requests may be added, or maybe NOT.
 
 **We are accepting contributors.**
+
+**SCRIPTING NOTE FROM KRIS**
+**------------------------**
+I use PascalCase in my coding, if you do end up getting a PR approved, most of the code will be changed to fit my style, your credit will still be shown though.
