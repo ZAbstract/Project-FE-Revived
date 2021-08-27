@@ -1,3 +1,5 @@
+--Old code does not work now. This will be rescripted soon.
+
 local Gui = script.Parent
 
 local DeviceInfo = Gui:WaitForChild("DeviceInfo")
